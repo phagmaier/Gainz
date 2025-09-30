@@ -1,0 +1,119 @@
+/* Main Container */
+#main-container {
+    padding: 1 2;
+    height: 100%;
+}
+
+/* Title */
+#title {
+    text-style: bold;
+    text-align: center;
+    color: $accent;
+    margin-bottom: 1;
+}
+
+/* Section Labels */
+#add-lifts-label, #current-lifts-label {
+    margin-top: 1;
+    margin-bottom: 1;
+    text-style: bold;
+    color: $text-muted;
+}
+
+/* Input Fields */
+Input {
+    margin-bottom: 1;
+    border: tall $primary;
+}
+
+Input:focus {
+    border: tall $accent;
+}
+
+/* Search Results Dropdown */
+#results {
+    display: none;
+    background: $surface;
+    border: tall $primary;
+    padding: 0 1;
+    max-height: 10;
+    margin-bottom: 1;
+}
+
+#results.visible {
+    display: block;
+}
+
+#results > Label {
+    padding: 0 1;
+    height: 1;
+}
+
+#results > Label.active {
+    background: $accent;
+    color: $text;
+    text-style: bold;
+}
+
+#results > Label:hover {
+    background: $primary;
+}
+
+/* Workout Container */
+#workout_container {
+    background: $surface;
+    border: tall $primary;
+    padding: 1;
+    min-height: 8;
+    margin-bottom: 1;
+}
+
+/* Individual Lift Items */
+.lift-item {
+    height: auto;
+    padding: 0 1;
+    margin-bottom: 1;
+    background: $panel;
+    border: tall $primary-background;
+}
+
+.lift-name {
+    width: 1fr;
+    content-align: left middle;
+}
+
+/* Delete Button */
+.delete-btn {
+    width: 5;
+    min-width: 5;
+    height: 1;
+    background: $error;
+    color: $text;
+    border: none;
+    margin-left: 1;
+}
+
+.delete-btn:hover {
+    background: $error-darken-1;
+    text-style: bold;
+}
+
+/* Button Container */
+#button-container {
+    height: auto;
+    margin-top: 1;
+    margin-bottom: 1;
+}
+
+#button-container > Button {
+    width: 1fr;
+    margin: 0 1;
+}
+
+/* Status Message */
+#status {
+    text-align: center;
+    color: $text-muted;
+    margin-top: 1;
+    height: 1;
+}

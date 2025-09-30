@@ -1,0 +1,16 @@
+    Label {
+        content-align: center middle;
+        height: 3;
+        text-style: bold;
+        background: blue 20%;
+    }
+    
+    Button {
+        width: 50%;
+        height: 3;
+        margin: 1;
+    }
+    
+    Vertical {
+        align: center middle;
+    }
